@@ -1,5 +1,5 @@
 %define upstream_name    Catalyst-Authentication-Store-DBIx-Class
-%define upstream_version 0.1083
+%define upstream_version 0.1200
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
