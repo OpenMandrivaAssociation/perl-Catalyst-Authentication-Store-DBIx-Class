@@ -12,6 +12,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires: perl(strictures)
 BuildRequires:	perl(Catalyst::Model::DBIC::Schema)
 BuildRequires:	perl(Catalyst::Plugin::Authentication)
 BuildRequires:	perl(Catalyst::Runtime)
