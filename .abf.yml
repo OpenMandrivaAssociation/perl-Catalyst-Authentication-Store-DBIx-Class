@@ -1,2 +1,5 @@
+removed_sources:
+  Catalyst-Authentication-Store-DBIx-Class-0.1401.tar.gz: c24d2904739885079ec07e0627ecbc3b4ca5dc6e
+  Catalyst-Authentication-Store-DBIx-Class-0.1505.tar.gz: f4551ad32e3f283c9049021cc60fd8b6343e8d38
 sources:
-  "Catalyst-Authentication-Store-DBIx-Class-0.1401.tar.gz": c24d2904739885079ec07e0627ecbc3b4ca5dc6e
+  Catalyst-Authentication-Store-DBIx-Class-0.1506.tar.gz: 23c4008eeb17eb35b7acdc93b0deaa54f36b945a
