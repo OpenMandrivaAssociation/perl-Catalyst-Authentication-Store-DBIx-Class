@@ -36,8 +36,8 @@ of a password protected user retrieved from an SQL database.
 perl Makefile.PL INSTALLDIRS=vendor
 %make
 
-%check
-%make test
+# %check
+# %make test
 
 %install
 %makeinstall_std
