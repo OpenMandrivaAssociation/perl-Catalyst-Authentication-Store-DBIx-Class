@@ -1,9 +1,7 @@
 %define upstream_name    Catalyst-Authentication-Store-DBIx-Class
-%define upstream_version 0.1506
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	5
+Version:	0.1506
+Release:	6
 
 Summary:	Catalyst Auth storage using DBIx::Class
 
@@ -11,7 +9,7 @@ Summary:	Catalyst Auth storage using DBIx::Class
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://git.shadowcat.co.uk/catagits/Catalyst-Authentication-Store-DBIx-Class
-Source0:	https://cpan.metacpan.org/authors/id/I/IL/ILMARI/Catalyst-Authentication-Store-DBIx-Class-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/I/IL/ILMARI/Catalyst-Authentication-Store-DBIx-Class-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -31,7 +29,7 @@ configure Catalyst Authentication when using the most common configuration
 of a password protected user retrieved from an SQL database.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
